@@ -2,7 +2,7 @@
 using namespace std;
 int main() {
   int height;
-  cout << "請輸入三角形高度(高度勿大於八或小於一):";
+  cout << "請輸入三角形高度(高度誤大於八或小於一):";
   cin >> height;
   if (9>height && height>0) {
     for (int a=0;a<height;a++) {
